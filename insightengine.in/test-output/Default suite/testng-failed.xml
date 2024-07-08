@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Testcases.Post_login">
+        <methods>
+          <include name="verifySignupNotDisplayedAfterNavigation"/>
+          <include name="setupExtentReports"/>
+          <include name="closeBrowser"/>
+          <include name="tearDownExtentReports"/>
+          <include name="print_the_firstsurvey_response"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcases.Post_login -->
+      <class name="Testcases.SignUp">
+        <methods>
+          <include name="setupExtentReports"/>
+          <include name="closeBrowser"/>
+          <include name="Login_signup"/>
+          <include name="tearDownExtentReports"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcases.SignUp -->
+      <class name="Testcases.clickable_function">
+        <methods>
+          <include name="setupExtentReports"/>
+          <include name="closeBrowser"/>
+          <include name="TC_09"/>
+          <include name="tearDownExtentReports"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testcases.clickable_function -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
